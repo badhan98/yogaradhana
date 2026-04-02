@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+  --forest: #1B2D2A;
+  --sage: #A8B8A0;
+  --cream: #FDFBF7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--forest);
+  color: var(--cream);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--forest);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sage);
+  border-radius: 10px;
+}
+
+@layer utilities {
+  .text-gold {
+    color: var(--gold);
+  }
+
+  .text-sage {
+    color: var(--sage);
+  }
+
+  .text-forest {
+    color: var(--forest);
+  }
+
+  .bg-gold {
+    background-color: var(--gold);
+  }
+
+  .bg-forest {
+    background-color: var(--forest);
+  }
+
+  .bg-sage {
+    background-color: var(--sage);
+  }
+
+  .border-gold {
+    border-color: var(--gold);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
