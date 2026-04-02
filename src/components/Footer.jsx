@@ -181,7 +181,7 @@ const Footer = () => {
           © {year} Yog Aradhana. All rights reserved.
         </p>
         <p style={{ fontSize: '0.78rem', opacity: 0.35, letterSpacing: '0.05em' }}>
-          Designed &amp; Developed by <span style={{ color: '#D4AF37', opacity: 1, fontWeight: 700 }}>Badhan Chowdhury</span>
+          Designed &amp; Developed by <a href="https://portfolio-chi-rosy-63.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#D4AF37', opacity: 1, fontWeight: 700, textDecoration: 'none' }}>Badhan Chowdhury</a>
         </p>
       </div>
     </footer>
