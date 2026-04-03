@@ -145,7 +145,7 @@ const Footer = () => {
             {[
               { icon: '📞', text: '+91 8768624664', href: 'tel:+918768624664' },
               { icon: '✉️', text: 'iampaulamichowdhury@gmail.com', href: 'mailto:iampaulamichowdhury@gmail.com' },
-              { icon: '📍', text: 'Mangal Panday Road, Near Paramount Nursing Home, Beside Rouchitan' },
+              { icon: '📍', text: 'Raja Ram Mohan Roy Road Kidzee School Siliguri Westbengal 734001' },
             ].map(({ icon, text, href }) => (
               <div key={text} style={{ display: 'flex', gap: '10px', alignItems: 'flex-start' }}>
                 <span style={{ fontSize: '1rem', flexShrink: 0 }}>{icon}</span>

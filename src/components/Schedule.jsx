@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const Schedule = () => {
   const scheduleDays = [
-    { day: 'Monday', time: '7:30 AM' },
-    { day: 'Tuesday', time: '7:30 AM' },
-    { day: 'Thursday', time: '7:30 AM' },
-    { day: 'Friday', time: '7:30 AM' },
+    { day: 'Monday', time: '05:30 PM' },
+    { day: 'Tuesday', time: '05:30 PM' },
+    { day: 'Thursday', time: '05:30 PM' },
+    { day: 'Friday', time: '05:30 PM' },
   ];
 
   return (
@@ -169,7 +169,7 @@ const Schedule = () => {
               {
                 icon: '📍',
                 label: 'Location',
-                value: 'Mangal Panday Road, Near Paramount Nursing Home, Opp Sree Amar Suhagan, Beside Rouchitan',
+                value: 'Raja Ram Mohan Roy Road Kidzee School Siliguri Westbengal 734001',
               },
               {
                 icon: '📞',

@@ -191,7 +191,7 @@ const Services = () => {
             position: 'absolute', inset: 0,
             background: 'linear-gradient(to right, rgba(27,45,42,0.95) 0%, rgba(27,45,42,0.7) 60%, rgba(27,45,42,0.3) 100%)',
           }} />
-          <div style={{ position: 'relative', zIndex: 1, padding: '3rem 4rem' }}>
+          <div className="demo-banner-inner" style={{ position: 'relative', zIndex: 1, padding: '3rem 4rem' }}>
             <p style={{ color: '#D4AF37', fontSize: '0.7rem', letterSpacing: '0.4em', fontWeight: 700, textTransform: 'uppercase', marginBottom: '1rem' }}>
               Limited Spots
             </p>

@@ -77,3 +77,89 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
+
+/* =============================================
+   RESPONSIVE — MOBILE (≤768px)
+   ============================================= */
+@media (max-width: 768px) {
+  /* Hero section */
+  #home {
+    min-height: 100svh;
+  }
+
+  #home > div:first-child {
+    background-size: 340% auto !important;
+    background-position: 30% center !important;
+  }
+
+  /* About / Owner section */
+  #about {
+    padding: 80px 5% !important;
+    min-height: unset !important;
+  }
+
+  #about img[alt="Paulami Chowdhury - Yoga Instructor"] {
+    height: 380px !important;
+  }
+
+  /* Services section */
+  #services {
+    padding: 80px 5% !important;
+    min-height: unset !important;
+  }
+
+  /* Services demo banner inner padding */
+  #services .demo-banner-inner {
+    padding: 2rem 1.5rem !important;
+  }
+
+  /* Schedule / Contact section */
+  #schedule {
+    padding: 80px 5% !important;
+    min-height: unset !important;
+  }
+
+  /* Footer grid — single column, centered */
+  footer > div[style*="grid"] {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+    padding: 3rem 1.5rem 2rem !important;
+    text-align: center !important;
+  }
+
+  /* Footer brand column — center items */
+  footer img[alt="Yog Aradhana"] {
+    align-self: center !important;
+  }
+
+  footer a[href*="wa.me"] {
+    align-self: center !important;
+  }
+
+  /* Footer bottom bar — stack vertically */
+  footer > div[style*="justifyContent"] {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 0.5rem !important;
+  }
+
+  /* WhatsApp float button */
+  #whatsapp-float {
+    bottom: 16px !important;
+    right: 16px !important;
+  }
+}
+
+/* =============================================
+   RESPONSIVE — SMALL MOBILE (≤480px)
+   ============================================= */
+@media (max-width: 480px) {
+  #home > div:first-child {
+    background-size: 400% auto !important;
+    background-position: 35% center !important;
+  }
+
+  #about img[alt="Paulami Chowdhury - Yoga Instructor"] {
+    height: 300px !important;
+  }
+}
