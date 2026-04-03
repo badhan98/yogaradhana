@@ -9,10 +9,10 @@ const WhatsAppButton = () => {
   return (
     <>
       {/* Fixed sticky container — always right side of viewport */}
-      <div style={{
+      <div id="whatsapp-float" style={{
         position: 'fixed',
-        right: '28px',
-        bottom: '32px',
+        right: '24px',
+        bottom: '28px',
         zIndex: 9999,
         display: 'flex',
         alignItems: 'center',
@@ -102,6 +102,19 @@ const WhatsAppButton = () => {
         @keyframes wa-ping {
           0% { transform: scale(1); opacity: 0.3; }
           80%, 100% { transform: scale(1.8); opacity: 0; }
+        }
+        @media (max-width: 480px) {
+          #whatsapp-float {
+            right: 14px !important;
+            bottom: 18px !important;
+          }
+          #whatsapp-float .wa-tooltip {
+            display: none !important;
+          }
+          #whatsapp-float a {
+            width: 52px !important;
+            height: 52px !important;
+          }
         }
       `}</style>
     </>
